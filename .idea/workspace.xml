@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56d0c87a-f17e-443f-a1f1-877d07c029f0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/selenium.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumStarterpack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Apps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/base/AbstractPagingAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/base/InterfacePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/base/PageAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/elements/InputElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/elements/NavigationElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/elements/SelectElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modules/LoginAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modules/article/category/ArticleCategoriesPaginationAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modules/article/category/CreateNewArticleAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Apps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/base/AbstractPagingAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/base/InterfacePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/base/PageAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/elements/InputElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/elements/NavigationElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/elements/SelectElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/flow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/modules/LoginAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/modules/article/category/ArticleCategoriesPaginationAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/modules/article/category/CreateNewArticleAction.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -398,12 +428,12 @@
       <workItem from="1538713905608" duration="41000" />
       <workItem from="1538789876308" duration="18434000" />
       <workItem from="1538892901597" duration="2483000" />
-      <workItem from="1538936576054" duration="1141000" />
+      <workItem from="1538936576054" duration="1520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27165000" />
+    <option name="totallyTimeSpent" value="27544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
