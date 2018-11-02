@@ -17,6 +17,7 @@ public class Apps {
         webDriver.manage().window().maximize();
         LoginAction loginAction = new LoginAction(webDriver);
         loginAction.onExecute();
+
     }
 
 
