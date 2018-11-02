@@ -1,31 +1,27 @@
 package config.elements;
 
+import config.base.Element;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 
-public class InputElement {
-    private WebElement input;
-    private WebDriver webDriver;
+public class InputElement extends Element {
+    private WebElement inputElement;
 
     public InputElement(WebDriver webDriver) {
-        this.webDriver = webDriver;
+        super(webDriver);
     }
 
-    public void setInputByCssSelector(String reference) {
-        this.input = webDriver.findElement(By.cssSelector(reference));
-    }
-
-    public void setInputByName(String reference) {
-        this.input = webDriver.findElement(By.name(reference));
+    public void setFormElement(String reference) {
+        this.inputElement = webDriver.findElement(By.cssSelector(reference));
     }
 
     public void setValue(String value) {
-        input.sendKeys(value);
+        inputElement.sendKeys(value);
     }
 
-    public WebElement getInput() {
-        return input;
+    public WebElement getFormElement() {
+        return inputElement;
     }
 }

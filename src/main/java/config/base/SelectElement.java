@@ -1,4 +1,4 @@
-package config.elements;
+package config.base;
 
 import lombok.Getter;
 import org.openqa.selenium.WebElement;
