@@ -2,7 +2,9 @@ package features;
 
 import config.base.ViewAction;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class LoginAction extends ViewAction {
 
@@ -13,6 +15,7 @@ public class LoginAction extends ViewAction {
 
     @Override
     public void onNegative() throws Exception {
+
         element.setFormElement("input[name=username]");
         element.setValue("root");
         element.setFormElement("input[name=password]");
